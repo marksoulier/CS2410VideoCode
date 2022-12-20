@@ -1,0 +1,9 @@
+form {
+  border: 1px solid black;
+  margin: 16px 32px 64px 128px;
+  padding: 16px 32px 64px 128px;
+}
+
+.spacer {
+  margin-bottom: 16px;
+}

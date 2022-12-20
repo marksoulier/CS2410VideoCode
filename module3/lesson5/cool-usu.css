@@ -1,0 +1,20 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: rgb(15,36,57);
+}
+
+.cool-text {
+  font-size: 30em;
+  text-align: center;
+  font-weight: bold;
+  background-image: url(usu-background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: rgba(0,0,0,0);
+}
