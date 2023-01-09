@@ -1,0 +1,12 @@
+label {
+  padding: 16px;
+  display: flex;
+  gap: 8px;
+}
+
+body {
+  --background-color: #FFFFFF;
+  --text-color: #000000;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}

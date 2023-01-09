@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.contact-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact {
+  padding: 16px;
+  border-bottom: 1px solid black;
+}
+
+.more {
+  font-size: .5em;
+  display: none;
+}
+
+.contact[data-visible="true"] > .more {
+  display: block;
+}

@@ -1,0 +1,14 @@
+.floating-button {
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: rebeccapurple;
+  color: white;
+  border-radius: 100%;
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  box-shadow: 0 12px 24px rgba(0,0,0,.20), 0 10px 10px rgba(0,0,0,.24);
+}
