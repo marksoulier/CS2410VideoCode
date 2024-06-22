@@ -1,0 +1,150 @@
+/* Note: Column */
+.resume-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Note: Row wrap */
+.resume-header-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: #F6F1F1;
+    border-bottom: 1px solid;
+}
+.resume-contact {
+    width: 29%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-left: 1px solid;
+    border-color: #F6F1F1;
+    justify-content: center;
+}
+.contact, .contact-link {
+    flex: 1 1 100%;
+    max-width: 200px;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.resume-body-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.resume-body-child1 {
+    width: 70%;
+}
+
+.resume-body-child2 {
+    width: 30%;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Note: Column streched */
+.resume-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+/* Change to stack apon getting smaller */
+
+@media (max-width: 768px) {
+    .resume-header,.resume-contact, .resume-body-child1, .resume-body-child2 {
+        width: 100%;
+        border: none;
+    }
+}
+
+h1 {
+    font-size: 5em;
+    margin: 5px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    color: #146C94;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+p {
+    margin: 0;
+}
+
+.experience-container{ 
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.experience {
+    margin: 10px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #212121;
+    color: #F6F1F1;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+a {
+    color: #19A7CE;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.banner {
+    background-color: #146C94;
+    text-align: center;
+    padding: 5px;
+}
+
+.experience-header {
+    text-align: center;
+    padding: 15px;
+}
+
+.experience-dates {
+    text-align: center;
+}
+
+.experience-description {
+    text-align: center;
+    padding: 25px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.skill {
+    background-color: rgb(90, 90, 90);
+    padding: 5px;
+    border-radius: 20px;
+    margin: 10px;
+}
+.skill-img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}

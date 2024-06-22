@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <title>Mini Apps</title>
+    <script src="script.js" defer></script>
+    <style>
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+  </head>
+  <body>
+
+    <h1>Mini Applications</h1>
+
+    <h2>Madlib Application</h2>
+    <form id="madlibform">
+      <div>
+        <label>
+          Proper Noun <input type="text" name="noun"/>
+        </label>
+      </div>
+      <div>
+        <label>
+          Verb (past tense) <input type="text" name="verb1"/>
+        </label>
+      </div>
+      <div>
+        <label>
+            Verb (past tense) <input type="text" name="verb2"/>
+        </label>
+      </div>
+      <div>
+        <label>
+            Adjective <input type="text" name="adjective"/>
+        </label>
+      </div>
+      <div>
+        <label>
+            Object <input type="text" name="object"/>
+        </label>
+      </div>
+      <button type="submit">Generate</button>
+
+      <div id="output"></div>
+    </form>
+
+    <h2>Mortgage Calculator</h2>
+    <form id="mortgageform">
+        <div>
+        <label>
+            Loan Amount $ <input type="number" name="loanAmount" value="10000"/>
+        </label>
+        </div>
+        <div>
+        <label>
+            Annual Interest Rate <input type="number" name="interestRate" value="5.5"/>
+            <span>%</span>
+        </label>
+        </div>
+        <div>
+        <label>
+            Number of Years <input type="number" name="loanTerm" value="30"/>
+            <span>years</span>
+        </label>
+        </div>
+        <div id="output-mortgage"></div>
+    </form>
+  </body>
+</html>

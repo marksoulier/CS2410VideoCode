@@ -1,6 +1,6 @@
 const input = document.getElementById("email-input");
 
-input.addEventListener("input", (e) => {
+input.addEventListener("blur", (e) => {
   console.log(e);
   const emailAddress = e.target.value;
   const errorDiv = document.getElementById("error-message");
